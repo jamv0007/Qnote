@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1858058B2ADC5A100080EFB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858058A2ADC5A100080EFB7 /* AppDelegate.swift */; };
+		1858058D2ADC5A100080EFB7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858058C2ADC5A100080EFB7 /* SceneDelegate.swift */; };
+		1858058F2ADC5A100080EFB7 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858058E2ADC5A100080EFB7 /* ListViewController.swift */; };
+		185805922ADC5A100080EFB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185805902ADC5A100080EFB7 /* Main.storyboard */; };
+		185805942ADC5A120080EFB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185805932ADC5A120080EFB7 /* Assets.xcassets */; };
+		185805972ADC5A120080EFB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185805952ADC5A120080EFB7 /* LaunchScreen.storyboard */; };
+		185805A12ADC67890080EFB7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185805A02ADC67890080EFB7 /* Constants.swift */; };
+		185805AA2ADC6C8D0080EFB7 /* NoteCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185805A82ADC6C8D0080EFB7 /* NoteCellView.swift */; };
+		185805AB2ADC6C8D0080EFB7 /* NoteCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185805A92ADC6C8D0080EFB7 /* NoteCellView.xib */; };
+		185805AE2ADC712C0080EFB7 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185805AD2ADC712C0080EFB7 /* Note.swift */; };
+		185805B02ADC7EAB0080EFB7 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185805AF2ADC7EAB0080EFB7 /* NoteViewController.swift */; };
+		18AC8A1C2ADD27AA00185C2F /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 18AC8A1B2ADD27AA00185C2F /* IQKeyboardManagerSwift */; };
+		9337809B8E8B833DDEA07483 /* Pods_Qnote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B1BF2C54392F19060F0D12 /* Pods_Qnote.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04B1BF2C54392F19060F0D12 /* Pods_Qnote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Qnote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		185805872ADC5A100080EFB7 /* Qnote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qnote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1858058A2ADC5A100080EFB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1858058C2ADC5A100080EFB7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1858058E2ADC5A100080EFB7 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		185805912ADC5A100080EFB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		185805932ADC5A120080EFB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		185805962ADC5A120080EFB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		185805982ADC5A120080EFB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185805A02ADC67890080EFB7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		185805A82ADC6C8D0080EFB7 /* NoteCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCellView.swift; sourceTree = "<group>"; };
+		185805A92ADC6C8D0080EFB7 /* NoteCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoteCellView.xib; sourceTree = "<group>"; };
+		185805AD2ADC712C0080EFB7 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		185805AF2ADC7EAB0080EFB7 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		C910754FA51B4BEAC85A806A /* Pods-Qnote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qnote.debug.xcconfig"; path = "Target Support Files/Pods-Qnote/Pods-Qnote.debug.xcconfig"; sourceTree = "<group>"; };
+		F94C18F6AABF2565EB2C0F58 /* Pods-Qnote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qnote.release.xcconfig"; path = "Target Support Files/Pods-Qnote/Pods-Qnote.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		185805842ADC5A100080EFB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9337809B8E8B833DDEA07483 /* Pods_Qnote.framework in Frameworks */,
+				18AC8A1C2ADD27AA00185C2F /* IQKeyboardManagerSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1858057E2ADC5A100080EFB7 = {
+			isa = PBXGroup;
+			children = (
+				185805892ADC5A100080EFB7 /* Qnote */,
+				185805882ADC5A100080EFB7 /* Products */,
+				AF1EBF482B5A84AA5BBEB64C /* Pods */,
+				600AA5CD06116FC0C325C163 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		185805882ADC5A100080EFB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				185805872ADC5A100080EFB7 /* Qnote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		185805892ADC5A100080EFB7 /* Qnote */ = {
+			isa = PBXGroup;
+			children = (
+				1858058A2ADC5A100080EFB7 /* AppDelegate.swift */,
+				1858058C2ADC5A100080EFB7 /* SceneDelegate.swift */,
+				185805AC2ADC710E0080EFB7 /* Model */,
+				1858059F2ADC661C0080EFB7 /* Controller */,
+				1858059E2ADC660F0080EFB7 /* View */,
+				185805932ADC5A120080EFB7 /* Assets.xcassets */,
+				185805952ADC5A120080EFB7 /* LaunchScreen.storyboard */,
+				185805982ADC5A120080EFB7 /* Info.plist */,
+				185805A02ADC67890080EFB7 /* Constants.swift */,
+			);
+			path = Qnote;
+			sourceTree = "<group>";
+		};
+		1858059E2ADC660F0080EFB7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				185805902ADC5A100080EFB7 /* Main.storyboard */,
+				185805A82ADC6C8D0080EFB7 /* NoteCellView.swift */,
+				185805A92ADC6C8D0080EFB7 /* NoteCellView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1858059F2ADC661C0080EFB7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1858058E2ADC5A100080EFB7 /* ListViewController.swift */,
+				185805AF2ADC7EAB0080EFB7 /* NoteViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		185805AC2ADC710E0080EFB7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				185805AD2ADC712C0080EFB7 /* Note.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		600AA5CD06116FC0C325C163 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04B1BF2C54392F19060F0D12 /* Pods_Qnote.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF1EBF482B5A84AA5BBEB64C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C910754FA51B4BEAC85A806A /* Pods-Qnote.debug.xcconfig */,
+				F94C18F6AABF2565EB2C0F58 /* Pods-Qnote.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		185805862ADC5A100080EFB7 /* Qnote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1858059B2ADC5A120080EFB7 /* Build configuration list for PBXNativeTarget "Qnote" */;
+			buildPhases = (
+				53F67D57553DBF4F95292E35 /* [CP] Check Pods Manifest.lock */,
+				185805832ADC5A100080EFB7 /* Sources */,
+				185805842ADC5A100080EFB7 /* Frameworks */,
+				185805852ADC5A100080EFB7 /* Resources */,
+				983FF9FE4B20FBBA808D9705 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Qnote;
+			packageProductDependencies = (
+				18AC8A1B2ADD27AA00185C2F /* IQKeyboardManagerSwift */,
+			);
+			productName = Qnote;
+			productReference = 185805872ADC5A100080EFB7 /* Qnote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1858057F2ADC5A100080EFB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					185805862ADC5A100080EFB7 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 185805822ADC5A100080EFB7 /* Build configuration list for PBXProject "Qnote" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1858057E2ADC5A100080EFB7;
+			packageReferences = (
+				18AC8A1A2ADD27AA00185C2F /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
+			productRefGroup = 185805882ADC5A100080EFB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				185805862ADC5A100080EFB7 /* Qnote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		185805852ADC5A100080EFB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185805972ADC5A120080EFB7 /* LaunchScreen.storyboard in Resources */,
+				185805942ADC5A120080EFB7 /* Assets.xcassets in Resources */,
+				185805AB2ADC6C8D0080EFB7 /* NoteCellView.xib in Resources */,
+				185805922ADC5A100080EFB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53F67D57553DBF4F95292E35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Qnote-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		983FF9FE4B20FBBA808D9705 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Qnote/Pods-Qnote-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Qnote/Pods-Qnote-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Qnote/Pods-Qnote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		185805832ADC5A100080EFB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185805B02ADC7EAB0080EFB7 /* NoteViewController.swift in Sources */,
+				1858058F2ADC5A100080EFB7 /* ListViewController.swift in Sources */,
+				1858058B2ADC5A100080EFB7 /* AppDelegate.swift in Sources */,
+				1858058D2ADC5A100080EFB7 /* SceneDelegate.swift in Sources */,
+				185805AA2ADC6C8D0080EFB7 /* NoteCellView.swift in Sources */,
+				185805A12ADC67890080EFB7 /* Constants.swift in Sources */,
+				185805AE2ADC712C0080EFB7 /* Note.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		185805902ADC5A100080EFB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185805912ADC5A100080EFB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		185805952ADC5A120080EFB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185805962ADC5A120080EFB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		185805992ADC5A120080EFB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1858059A2ADC5A120080EFB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1858059C2ADC5A120080EFB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C910754FA51B4BEAC85A806A /* Pods-Qnote.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XNP4T4STQ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Qnote/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamv0007.Qnote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1858059D2ADC5A120080EFB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F94C18F6AABF2565EB2C0F58 /* Pods-Qnote.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XNP4T4STQ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Qnote/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamv0007.Qnote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		185805822ADC5A100080EFB7 /* Build configuration list for PBXProject "Qnote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185805992ADC5A120080EFB7 /* Debug */,
+				1858059A2ADC5A120080EFB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1858059B2ADC5A120080EFB7 /* Build configuration list for PBXNativeTarget "Qnote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1858059C2ADC5A120080EFB7 /* Debug */,
+				1858059D2ADC5A120080EFB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		18AC8A1A2ADD27AA00185C2F /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		18AC8A1B2ADD27AA00185C2F /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18AC8A1A2ADD27AA00185C2F /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1858057F2ADC5A100080EFB7 /* Project object */;
+}
