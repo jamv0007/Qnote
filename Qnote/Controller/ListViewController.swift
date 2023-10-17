@@ -137,6 +137,9 @@ extension ListViewController: UISearchBarDelegate{
                 searchBar.resignFirstResponder()
             }
             
+            
+            print("uuuuu")
+            
         }
     }
 }
